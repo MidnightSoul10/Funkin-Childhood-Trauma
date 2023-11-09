@@ -409,6 +409,10 @@ var SONGVISIBLE:Bool = false;
 		CustomMouse.visible = true;
 		add(CustomMouse);
 
+		#if android
+                addVirtualPad(UP_DOWN, A_B_C);
+                #end
+
 		super.create();
 	}
 
@@ -658,7 +662,7 @@ var SONGVISIBLE:Bool = false;
 		var downP = controls.UI_DOWN_P;
 		var accepted = controls.ACCEPT;
 		var space = FlxG.keys.justPressed.SPACE;
-		var ctrl = FlxG.keys.justPressed.CONTROL;
+		var ctrl = FlxG.keys.justPressed.CONTROL #if android || virtualPad.buttonC.justPressed #end;
 
 		if(FlxG.keys.justPressed.L)
 		{

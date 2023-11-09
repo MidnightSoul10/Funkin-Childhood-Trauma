@@ -25,6 +25,14 @@ class DemoWarning extends MusicBeatState
 	var warnText:FlxText;
 	override function create():Void
 	{
+		#if android
+		FlxG.android.preventDefaultKeys = [BACK];
+		#end
+
+		#if android
+		addVirtualPad(NONE, A);
+		#end
+
 		super.create();
 
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
@@ -35,7 +43,7 @@ class DemoWarning extends MusicBeatState
 			This Verson is still a demo\n
 			So story mode is locked.\n
 			Also check the setting before playing.\n
-			<- Click Spacebar or Enter key to Continue ->",
+			<- Use A Button or Click Spacebar or Enter key to Continue ->",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);

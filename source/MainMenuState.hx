@@ -257,6 +257,10 @@ class MainMenuState extends MusicBeatState
 		CustomMouse.visible = true;
 		add(CustomMouse);
 
+		#if android
+                addVirtualPad(UP_DOWN, A_B);
+                #end
+
 		super.create();
 	}
  
