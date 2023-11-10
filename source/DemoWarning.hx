@@ -43,7 +43,7 @@ class DemoWarning extends MusicBeatState
 			This Verson is still a demo\n
 			So story mode is locked.\n
 			Also check the setting before playing.\n
-                        Ported By SoulBF10.\n
+			Ported By SoulBF10, Thanks For Playing.\n
 			<- Click on in the bottom right corner or Click Spacebar or Enter key to Continue ->",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
