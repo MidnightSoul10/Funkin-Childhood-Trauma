@@ -1,43 +1,61 @@
 ## Funkin Childhood Trauma:
 
-If you want to download the build then go to the gamebanana, website, or gamejolt
+## Android Port Participation/Collaborators
 
-![image](https://github.com/ShadowMario/FNF-PsychEngine/assets/130803298/c0003bdf-d8c6-4ce4-94d0-b92fc0d147c4)
+Youtube Channels:
 
-## Installation:
-You must have [the most up-to-date version of Haxe](https://haxe.org/download/), seriously, stop using 4.1.5, it misses some stuff.
+[MidnightSoul10](https://youtube.com/@MidnightSoul10?si=V3TvxV6APQhu2v7t)
 
-Follow a Friday Night Funkin' source code compilation tutorial, after this you will need to install LuaJIT.
+## FCT Team
+Youtube Channels:
 
-To install LuaJIT do this: `haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit` on a Command prompt/PowerShell
+[NickIdk](https://youtube.com/@NickIdk?si=ISZz2s4v_Ir88Ys_)
 
-...Or if you don't want your mod to be able to run .lua scripts, delete the "LUA_ALLOWED" line on Project.xml
+[FCT Team Channel](https://youtube.com/@FCTMod?si=8xuU4PgDPLQiBnH4)
 
+## Director's:
+saaaas2 (saxcz) - Director
+NickIdk - Co-Director
 
-If you get an error about StatePointer when using Lua, run `haxelib remove linc_luajit` into Command Prompt/PowerShell, then re-install linc_luajit.
+## Musicians:
+Cee-Jay, MissingMajin,Housebotz, qunmpp alnerishere,
+TonyNoki, FBI Goes Brrrr, ItsJustAce Rendem, realpencilgames,
+SeNc, Kyros SwitchDoesStuff, TinFoil, Tribbaly WilliamRobloxian
 
-If you want video support on your mod, simply do `haxelib install hxCodec` on a Command prompt/PowerShell
+## Coders:
+ERRon, MuffinCakes, NeonTheAlien, paradox_real, Nickldk
 
-otherwise, you can delete the "VIDEOS_ALLOWED" Line on Project.xml
+## Charters:
+skyler_spritez. DyeWhy_Funny, Myth1cmaven, ynnaV YoshiMaster109,
+ignak diteso, KlingerCraz, corperator
 
-## Credits:
-* Sacs (Director / Artist / Animator)
-* NickIdk (Co-Director / Coder)
-* Everyone who worked on the mod.
+## Artists:
+nN3, Abtin, PotatoArts.
+KlingerCraz, RiskArt, Roxxlucky
+kevix vixen
 
-![image](https://github.com/ShadowMario/FNF-PsychEngine/assets/130803298/cc775767-1bb2-43c7-9864-8bf50f98d9ef)
+## Chromatic Scalers :
+icecreambagel,
+Blackarrow247, Rave
 
-## Options menu:
+## Animators:
+Matiaselpibe,
+Spycrab
 
-* On Trauma you can toggle custom timebar, healthbar. Also you could toggle note bounce, icon bop, target fade, noteCombo, and arrows skin.
-* You can change Controls and Preferences there.
-* On Preferences you can toggle Downscroll, Middlescroll, Anti-Aliasing, Framerate, Low Quality, Note Splashes, Flashing Lights, etc.
+## Pixel Artists:
+Shifty2044,
+ChumoftheDev
 
-![image](https://github.com/ShadowMario/FNF-PsychEngine/assets/130803298/b3ed055e-8e4a-4064-a337-f0bdb3ff2f01)
+## Icon Artists :
+Greensans,
+Vico4481
 
-## Thanks for Downloading
+## Voice Actors :
+Sukiigaia
 
-Thanks for visiting the github and downloading.
-More version coming soon.
+## Special Thanks :
+Julian A.P,
+Kracer,
+rafacxs2010,
 
-![image](https://github.com/ShadowMario/FNF-PsychEngine/assets/130803298/2d6213be-bc86-40c7-a6af-a319b90d2e68)
+End Of List
